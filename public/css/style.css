@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .subscription_form {
+    width: 30rem;
+    background: #eee;
+    margin: 5rem auto;
+    padding: 2rem;
+    box-shadow: 2px 2px 2px 2px #999;
+  }
+  
+  .subscription_form_title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subscription_form_inputGroup {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .subscription_form_inputGroup label {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .subscription_form_inputGroup input {
+    padding: 15px 17px;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 8px;
+  }
+  
+  .subscription_form_submitBtn {
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #333;
+    color: #f4f4f4;
+    padding: 10px 17px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .subscription_form_submitBtn:hover {
+    background: #e9e9e9;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  .subscribed_pageBox {
+    width: 30rem;
+    background: #eee;
+    margin: 5rem auto;
+    padding: 2rem;
+    box-shadow: 2px 2px 2px 2px #999;
+  }
+  
+  .subscribed_pageBox_title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subscribed_pageBox_Link {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #333;
+    color: #f4f4f4;
+    padding: 10px 17px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .subscribed_pageBox_Link:hover {
+    background: #e9e9e9;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
